@@ -1,9 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-
+#include <iostream>
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+
 #include "Monster.generated.h"
 
 UCLASS()
