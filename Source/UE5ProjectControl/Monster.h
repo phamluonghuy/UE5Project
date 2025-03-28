@@ -26,7 +26,12 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere)
-	class UStaticMeshComponent* MeshComp; 
+	class UStaticMeshComponent* MeshComp;
+
+
+public:
+	//UPROPERTY(EditAnywhere)
+	void Dammage(float damage);
 
 
 };
