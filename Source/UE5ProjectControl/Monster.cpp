@@ -2,6 +2,8 @@
 
 
 #include "Monster.h"
+#include <iostream>
+
 
 // Sets default values
 AMonster::AMonster()
@@ -27,3 +29,8 @@ void AMonster::Tick(float DeltaTime)
 
 }
 
+void AMonster::Dammage(float damage)
+{
+	std::cout << damage;
+
+}

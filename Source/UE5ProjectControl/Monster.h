@@ -4,6 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include <iostream>
+
+
+
 #include "Monster.generated.h"
 
 UCLASS()
@@ -25,7 +29,9 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere)
-	class UStaticMeshComponent* MeshComp; 
+	class UStaticMeshComponent* MeshComp;
+
+	void Dammage(float damage);
 
 
 };
